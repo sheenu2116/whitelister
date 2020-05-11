@@ -1,0 +1,33 @@
+{
+  "name": "whitelister",
+  "version": "1.0.0",
+  "description": "Function execution after filtering on the basis of whitelist or blacklist",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheenu2116/whitelister.git"
+  },
+  "keywords": [
+    "whitelist",
+    "whitelister",
+    "filter",
+    "blacklist",
+    "blacklister",
+    "executor"
+  ],
+  "author": "Adarsh Rishishwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheenu2116/whitelister/issues"
+  },
+  "homepage": "https://github.com/sheenu2116/whitelister#readme"
+}
